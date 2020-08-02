@@ -1,17 +1,19 @@
 def create_an_empty_array
-  
+  my_dog = []
 end
 
 def create_an_array
-  
+  my_dog = ["Meela", "Luna", "Thor", "Prince"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  my_dog = ["Meela", "Luna", "Thor", "Prince"]
+  my_dog.push("element")
+end
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  my_dog.unshift = "Thunder"
 end
 
 def remove_element_from_end_of_array(array)
